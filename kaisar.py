@@ -7,7 +7,7 @@ import uuid
 import cloudscraper
 import asyncio
 import os
-os.system('cls')
+os.system('clear')
 banner = """\033[36m
 ██╗  ██╗ █████╗ ██╗███████╗ █████╗ ██████╗ 
 ██║ ██╔╝██╔══██╗██║██╔════╝██╔══██╗██╔══██╗
@@ -20,7 +20,7 @@ banner = """\033[36m
 ----------------------------------------------------"""
 print(banner)
 uid = input("Masukkan token : ")
-os.system('cls')
+os.system('clear')
 print(banner)
 ext_id = str(uuid.uuid4())
 useragent = UserAgent().random
